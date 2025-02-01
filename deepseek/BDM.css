@@ -12,80 +12,83 @@
     https://t.me/mylousyfate
 */
 
-body {
-    --dsr-main: #ffffff;
-    --dsr-main-2: rgba(255, 255, 255, .4);
-    --dsr-main-3: rgba(255, 255, 255, .2);
-}
+@-moz-document domain("chat.deepseek.com") {
+    
+    body {
+        --dsr-main: #ffffff;
+        --dsr-main-2: rgba(255, 255, 255, .4);
+        --dsr-main-3: rgba(255, 255, 255, .2);
+    }
 
-body[data-ds-dark-theme] {
-    --dsr-bg: #000000;
-    --dsr-text-0: rgb(0 0 0);
-    --dsr-text-1: rgb(255 255 255);
-    --dsr-text-2: rgb(255 255 255);
-    --dsr-text-3: rgb(var(--ds-rgb-neutral-300));
-    --dsr-text-4: rgb(255 255 255);
-    --dsr-border-1: rgb(0 0 0);
-    --dsr-border-2: rgb(0 0 0);
-    --dsr-input-border: #000000;
-    --dsr-input-bg: #000000;
-    --dsr-button-main-bg: #000000;
-    --dsr-button-main-bg-hover: #000000;
-    --dsr-button-second-bg: rgb(0 0 0 / 40%);
-    --dsr-button-grey-0: rgb(0 0 0);
-    --dsr-button-grey-1: rgb(0 0 0);
-    --dsr-button-grey-2: rgb(0 0 0);
-    --dsr-delete-button-bg: rgb(var(--ds-rgb-red-500) / .85);
-    --dsr-delete-button-bg-hover: rgb(var(--ds-rgb-red-550) / .45);
-    --dsr-tooltip-fg: rgb(0 0 0);
-    --dsr-tooltip-bg: #000;
-    --dsr-side-bg: #212327;
-    --dsr-side-hover-bg-rgb: 51, 51, 51;
-    --dsr-side-hover-bg: rgb(0 0 0);
-    --dsr-icon-fg-1: rgb(0 0 0);
-    --dsr-icon-hover-0: rgb(0 0 0);
-    --dsr-icon-hover-1: rgb(var(--ds-rgb-neutral-700));
-    --dsr-side-icon-hover: rgb(0 0 0);
-    --dsr-error-fg: rgb(0 0 0);
-    --dsr-error-fg: rgb(var(--ds-rgb-red-450));
-}
+    body[data-ds-dark-theme] {
+        --dsr-bg: #000000;
+        --dsr-text-0: rgb(0 0 0);
+        --dsr-text-1: rgb(255 255 255);
+        --dsr-text-2: rgb(255 255 255);
+        --dsr-text-3: rgb(var(--ds-rgb-neutral-300));
+        --dsr-text-4: rgb(255 255 255);
+        --dsr-border-1: rgb(0 0 0);
+        --dsr-border-2: rgb(0 0 0);
+        --dsr-input-border: #000000;
+        --dsr-input-bg: #000000;
+        --dsr-button-main-bg: #000000;
+        --dsr-button-main-bg-hover: #000000;
+        --dsr-button-second-bg: rgb(0 0 0 / 40%);
+        --dsr-button-grey-0: rgb(0 0 0);
+        --dsr-button-grey-1: rgb(0 0 0);
+        --dsr-button-grey-2: rgb(0 0 0);
+        --dsr-delete-button-bg: rgb(var(--ds-rgb-red-500) / .85);
+        --dsr-delete-button-bg-hover: rgb(var(--ds-rgb-red-550) / .45);
+        --dsr-tooltip-fg: rgb(0 0 0);
+        --dsr-tooltip-bg: #000;
+        --dsr-side-bg: #212327;
+        --dsr-side-hover-bg-rgb: 51, 51, 51;
+        --dsr-side-hover-bg: rgb(0 0 0);
+        --dsr-icon-fg-1: rgb(0 0 0);
+        --dsr-icon-hover-0: rgb(0 0 0);
+        --dsr-icon-hover-1: rgb(var(--ds-rgb-neutral-700));
+        --dsr-side-icon-hover: rgb(0 0 0);
+        --dsr-error-fg: rgb(0 0 0);
+        --dsr-error-fg: rgb(var(--ds-rgb-red-450));
+    }
 
-.cdfc1683 {
-    background-color: #00000000;
-    color: #ffffff;
-}
+    .cdfc1683 {
+        background-color: #00000000;
+        color: #ffffff;
+    }
 
-.b8812f16 {
-    background-color: #000000;
-}
+    .b8812f16 {
+        background-color: #000000;
+    }
 
-[data-ds-dark-theme] .a8ac7a80 {
-    --local-button: #000000;
-    --local-button-hover: #000000;
-    --local-button-text: rgb(255 255 255);
-}
+    [data-ds-dark-theme] .a8ac7a80 {
+        --local-button: #000000;
+        --local-button-hover: #000000;
+        --local-button-text: rgb(255 255 255);
+    }
 
-.f9edaa3c {
-    background-color: #000000;
-}
+    .f9edaa3c {
+        background-color: #000000;
+    }
 
-[data-ds-dark-theme] .be88ba8a {
-    display: none;
-}
+    [data-ds-dark-theme] .be88ba8a {
+        display: none;
+    }
 
-[data-ds-dark-theme] .fbb737a4 {
-    background-color: #000000;
-}
+    [data-ds-dark-theme] .fbb737a4 {
+        background-color: #000000;
+    }
 
-[data-ds-dark-theme] .e214291b {
-    color: #f8faff;
-    background-color: #000000;
-}
+    [data-ds-dark-theme] .e214291b {
+        color: #f8faff;
+        background-color: #000000;
+    }
 
-.ds-textarea.ds-textarea--focused {
-    background-color: #000000;
-}
+    .ds-textarea.ds-textarea--focused {
+        background-color: #000000;
+    }
 
-.dc04ec1d.a02af2e6 .a7f3a288 {
-    background-color: black;
+    .dc04ec1d.a02af2e6 .a7f3a288 {
+        background-color: black;
+    }
 }
