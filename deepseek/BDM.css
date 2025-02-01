@@ -15,7 +15,7 @@
 @-moz-document domain("chat.deepseek.com") {
     
     body {
-        --dsr-main: #ffffff;
+        --dsr-main: white;
         --dsr-main-2: rgba(255, 255, 255, .4);
         --dsr-main-3: rgba(255, 255, 255, .2);
     }
@@ -53,22 +53,22 @@
     }
 
     .cdfc1683 {
-        background-color: #00000000;
-        color: #ffffff;
+        background-color: black;
+        color: white;
     }
 
     .b8812f16 {
-        background-color: #000000;
+        background-color: black;
     }
 
     [data-ds-dark-theme] .a8ac7a80 {
-        --local-button: #000000;
-        --local-button-hover: #000000;
+        --local-button: black;
+        --local-button-hover: black;
         --local-button-text: rgb(255 255 255);
     }
 
     .f9edaa3c {
-        background-color: #000000;
+        background-color: black;
     }
 
     [data-ds-dark-theme] .be88ba8a {
@@ -76,19 +76,23 @@
     }
 
     [data-ds-dark-theme] .fbb737a4 {
-        background-color: #000000;
+        background-color: black;
     }
 
     [data-ds-dark-theme] .e214291b {
         color: #f8faff;
-        background-color: #000000;
+        background-color: black;
     }
 
     .ds-textarea.ds-textarea--focused {
-        background-color: #000000;
+        background-color: black;
     }
 
     .dc04ec1d.a02af2e6 .a7f3a288 {
         background-color: black;
+    }
+    
+    .md-code-block {
+        background: black;
     }
 }
