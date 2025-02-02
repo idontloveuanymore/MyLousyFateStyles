@@ -1,1 +1,44 @@
-/* init */
+/* ==UserStyle==
+@name         Better Slider Bar
+@namespace    https://github.com/idontloveuanymore
+@version      1.0.0
+@description  Enhanced SliderBars
+@author       idontloveuanymore
+@license      MIT
+@updateURL    https://github.com/idontloveuanymore/MyLousyFateStyles/blob/main/yt-music/BSB.css
+==/UserStyle== */
+
+/* 
+    https://t.me/mylousyfate
+*/
+
+@-moz-document domain("music.youtube.com") {
+
+    #sliderBar #primaryProgress {
+        --paper-slider-active-color: white;
+        --paper-progress-active-color: white;
+        --yt-spec-brand-button-background: white;
+    }
+
+    #progress-bar.ytmusic-player-bar {
+        --paper-slider-knob-color: white;
+        --paper-slider-knob-start-color: white;
+        --paper-slider-knob-start-border-color: white;
+    }
+
+    #progress-bar.ytmusic-player-bar[focused],
+    ytmusic-player-bar:hover #progress-bar.ytmusic-player-bar {
+        --paper-slider-knob-color: white;
+        --paper-slider-knob-start-color: white;
+        --paper-slider-knob-start-border-color: white;
+    }
+
+    .slider-knob-inner.tp-yt-paper-slider {
+        background-color: var(--paper-slider-knob-color, #ffffff);
+    }
+
+    .volume-slider.ytmusic-player-bar,
+    .expand-volume-slider.ytmusic-player-bar {
+        width: 250px !important;
+    }
+}
