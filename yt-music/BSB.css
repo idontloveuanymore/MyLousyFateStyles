@@ -34,11 +34,12 @@
     }
 
     .slider-knob-inner.tp-yt-paper-slider {
-        background-color: var(--paper-slider-knob-color, #ffffff);
+        background-color: white;
+        border: white;
     }
 
     .volume-slider.ytmusic-player-bar,
     .expand-volume-slider.ytmusic-player-bar {
-        width: 250px !important;
+        width: 250px;
     }
 }
