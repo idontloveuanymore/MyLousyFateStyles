@@ -14,6 +14,7 @@ This guide will help you install and use my custom styles in the Stylus browser 
 Below are links to my styles. Simply click on the link, and Stylus will prompt you to install the style.
 
 - **[Better Dark Mode](https://userstyles.world/style/20612/better-dark-mode)**: Deepseek dark theme
+- **[Your Own Slider Bar Color](https://userstyles.world/style/20638/your-own-slider-bar-color)**: Yt-Music slidebar color
 
 ## Support
 
